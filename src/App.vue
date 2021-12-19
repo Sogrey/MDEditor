@@ -7,8 +7,8 @@ import MonacoEditor from './components/MonacoEditor.vue'
 
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
-  <!-- <MonacoEditor /> -->
+  <!-- <HelloWorld msg="Hello Vue 3 + Vite" /> -->
+  <MonacoEditor msg="Hello Vue 3 + Vite"/>
 </template>
 
 <style>
