@@ -17,7 +17,7 @@ console.log(monaco);
 </script>
 
 <template>
-  <div id="monaco"></div>
+  <div id="monaco-editor"></div>
 </template>
 
 <style scoped>
