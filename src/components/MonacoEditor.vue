@@ -3,16 +3,16 @@ import * as monaco from "monaco-editor";
 // import 'monaco-editor/esm/vs/basic-languages/javascript/javascript.contribution';
 // import 'monaco-editor/esm/vs/editor/contrib/find/findController.js';
 
-defineProps({
-  msg: String,
-});
+// defineProps({
+//   msg: String,
+// });
 console.log(monaco);
 
-// const monacoInstance = monaco.editor.create(document.getElementById("monaco"));
-// const monacoInstance = monaco.editor.create(document.getElementById("monaco"), {
-//   value: `console.log("hello,world")`,
-//   language: "javascript",
-// });
+const monacoInstance = monaco.editor.create(document.getElementById("monaco"));
+const monacoInstance = monaco.editor.create(document.getElementById("monaco"), {
+  value: `console.log("hello,world")`,
+  language: "javascript",
+});
 // // monacoInstance.dispose();//使用完成销毁实例
 </script>
 
