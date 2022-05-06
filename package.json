@@ -9,6 +9,7 @@
     "electron:start": "vite build && electron ."
   },
   "dependencies": {
+    "cherry-markdown": "^0.7.0",
     "github-markdown-css": "^5.1.0",
     "html-pdf": "^3.0.1",
     "marked": "^4.0.7",
