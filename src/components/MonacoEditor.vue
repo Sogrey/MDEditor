@@ -8,7 +8,6 @@ import * as monaco from "monaco-editor";
 // });
 console.log(monaco);
 
-const monacoInstance = monaco.editor.create(document.getElementById("monaco"));
 const monacoInstance = monaco.editor.create(document.getElementById("monaco"), {
   value: `console.log("hello,world")`,
   language: "javascript",
