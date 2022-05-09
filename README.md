@@ -1,9 +1,24 @@
-# Vue 3 + Vite
+# mdeditor
 
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/Sogrey/Electron-Vite-Vue3.0)
+## Project setup
+```
+npm install
+```
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-## Recommended IDE Setup
+### Compiles and minifies for production
+```
+npm run build
+```
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

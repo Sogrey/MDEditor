@@ -1,24 +1,34 @@
 {
-  "name": "electron-vite-vue3.0",
-  "version": "0.0.0",
-  "main": "main.js",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview",
-    "electron:start": "vite build && electron ."
-  },
-  "dependencies": {
-    "cherry-markdown": "^0.7.0",
-    "github-markdown-css": "^5.1.0",
-    "html-pdf": "^3.0.1",
-    "marked": "^4.0.7",
-    "monaco-editor": "^0.31.0",
-    "vue": "^3.2.16"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^2.0.0",
-    "electron": "^16.0.4",
-    "vite": "^2.7.2"
-  }
+    "name": "mdeditor",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "electron:build": "vue-cli-service electron:build",
+        "electron:serve": "vue-cli-service electron:serve",
+        "postinstall": "electron-builder install-app-deps",
+        "postuninstall": "electron-builder install-app-deps"
+    },
+    "main": "background.js",
+    "dependencies": {
+        "core-js": "^3.8.3",
+        "vue": "^3.2.13",
+        "cherry-markdown": "^0.7.0",
+        "echarts": "4.6.0",
+        "mermaid": "8.11.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.12.16",
+        "@babel/eslint-parser": "^7.12.16",
+        "@vue/cli-plugin-babel": "~5.0.0",
+        "@vue/cli-plugin-eslint": "~5.0.0",
+        "@vue/cli-service": "~5.0.0",
+        "electron": "^13.0.0",
+        "electron-devtools-installer": "^3.1.0",
+        "eslint": "^7.32.0",
+        "eslint-plugin-vue": "^8.0.3",
+        "vue-cli-plugin-electron-builder": "~2.1.1"
+    }
 }
