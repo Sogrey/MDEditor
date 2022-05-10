@@ -6,6 +6,7 @@
 <script>
 import Cherry from 'cherry-markdown';
 import echarts from 'echarts';
+import mermaid from 'mermaid';
 
 export default {
     name: 'CherryMarkdownEditor',
@@ -41,7 +42,8 @@ export default {
                 }
             },
             externals: {
-                echarts
+                echarts,
+                mermaid
             },
             // fileUpload(file, callback) {
             //     callback(url);
