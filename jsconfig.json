@@ -16,5 +16,8 @@
             "scripthost"
         ],
         "jsx": "preserve"
+    },
+    "vueCompilerOptions": {
+        "experimentalShamefullySupportOptionsApi": true
     }
 }

@@ -5,6 +5,7 @@
 
 <script>
 import Cherry from 'cherry-markdown';
+import CherryMermaidPlugin from 'cherry-markdown/dist/addons/cherry-code-block-mermaid-plugin';
 import echarts from 'echarts';
 import mermaid from 'mermaid';
 
@@ -24,6 +25,15 @@ export default {
         //   id: 'markdown-container',
         //   value: "# Hello",
         // });
+
+        // 插件注册必须在Cherry实例化之前完成
+        Cherry.usePlugin(CherryMermaidPlugin, {
+            mermaid, // 传入mermaid引用
+            // mermaidAPI: mermaid.mermaidAPI, // 也可以传入mermaid API
+            // 同时可以在这里配置mermaid的行为，可参考mermaid官方文档
+            theme: 'neutral',
+            sequence: { useMaxWidth: false, showSequenceNumbers: true }
+        });
 
         new Cherry({
             id: 'markdown-container',
