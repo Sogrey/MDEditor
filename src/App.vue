@@ -26,7 +26,5 @@ export default {
     height: 100vh;
     margin: 0;
     padding: 0;
-    minWidth: 500px;
-    minHeight: 600px;
 }
 </style>
