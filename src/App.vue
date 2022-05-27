@@ -1,16 +1,12 @@
 <template>
-    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <CherryMarkdownEditor />
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 import CherryMarkdownEditor from './components/CherryMarkdownEditor.vue'
 export default {
     name: 'App',
     components: {
-        // HelloWorld,    
         CherryMarkdownEditor
     }
 }
