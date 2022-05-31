@@ -18,7 +18,6 @@ async function createWindow() {
         minWidth: 500, // 最小尺寸限制
         minHeight: 600,
         webPreferences: {
-
             // Use pluginOptions.nodeIntegration, leave this alone
             // See nklayman.github.io/vue-cli-plugin-electron-builder/guide/security.html#node-integration for more info
             nodeIntegration: process.env.ELECTRON_NODE_INTEGRATION,
