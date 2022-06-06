@@ -21,11 +21,6 @@ export default {
         return {};
     },
     mounted() {
-        // new Cherry({
-        //   id: 'markdown-container',
-        //   value: "# Hello",
-        // });
-
         // 插件注册必须在Cherry实例化之前完成
         Cherry.usePlugin(CherryMermaidPlugin, {
             mermaid, // 传入mermaid引用
