@@ -50,9 +50,11 @@ export default {
                 echarts,
                 mermaid
             },
+            
             // fileUpload(file, callback) {
             //     callback(url);
             // },
+
         });
     }
 }
@@ -67,3 +69,7 @@ export default {
     padding: 0;
 }
 </style>
+
+
+
+
